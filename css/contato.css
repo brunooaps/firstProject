@@ -1,0 +1,96 @@
+
+body{
+    background-color: darkgray
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: hidden; background-color: lightslategray;
+    padding: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: lightslategray;
+    border-style: solid;
+    padding: 10px;
+}
+.mid{
+    margin: 0 auto; width: 300px;
+}
+fieldset{
+    border: 0;
+}
+.border{
+    border-bottom: 3px solid;
+    padding-top: 20px;
+    color: lightslategray;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+input{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: none;
+}
+select{
+    width: 32.3%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: none;
+}
+textarea {
+    width: 31.8%;
+    border-radius: 10px;
+    border: 5px solid transparent;
+}
+.button{
+    width: 32.3%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: lightslategray;
+    border-radius: 10px;
+    box-shadow: none;
+    color: white;
+}
+.border2{
+    border-bottom: 3px solid;
+    padding-top: 20px;
+    color: lightslategray;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: darkgray solid 2px;
+} 
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px black;
+}
+textarea:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px black;
+}
+select:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px black;
+}
+    
+

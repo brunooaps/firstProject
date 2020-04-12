@@ -1,19 +1,19 @@
 
 body{
-    background-color: darkgray
+    background-color: #252627;
 }
 h1{
     color: white;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: hidden; background-color: lightslategray;
+    border: hidden; background-color: #707070;
     padding: 30px;
     padding-bottom: 20px;
     padding-top: 30px;
 }
 a{
     text-decoration: none;
-    color: lightslategray;
+    color: #ED5565;
     border-style: solid;
     padding: 10px;
 }
@@ -26,7 +26,7 @@ fieldset{
 .border{
     border-bottom: 3px solid;
     padding-top: 20px;
-    color: lightslategray;
+    color: #707070;
 }
 h2{
     color: white;
@@ -64,7 +64,7 @@ textarea {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    background-color: lightslategray;
+    background-color: #707070;
     border-radius: 10px;
     box-shadow: none;
     color: white;
@@ -72,17 +72,16 @@ textarea {
 .border2{
     border-bottom: 3px solid;
     padding-top: 20px;
-    color: lightslategray;
+    color: #707070;
 }
 footer{
     color: white;
     text-align: center;
     padding: 10px;
-    border-top: darkgray solid 2px;
 } 
 input:focus{
     outline: none;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px #ED5565;
 }
 textarea:focus{
     outline: none;
@@ -91,6 +90,9 @@ textarea:focus{
 select:focus{
     outline: none;
     box-shadow: 0px 0px 5px black;
+}
+label{
+    color: #707070;
 }
     
 
